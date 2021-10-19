@@ -1,0 +1,12 @@
+.footer {
+  padding: 30px;
+  background: rgb(245, 245, 245);
+
+  & .container {
+    justify-content: center;
+  }
+
+  & p {
+    color: darkgray;
+  }
+}

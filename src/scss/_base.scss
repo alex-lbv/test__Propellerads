@@ -1,0 +1,26 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  background: rgb(245, 245, 245);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1240px;
+  margin: auto;
+}
+
+.hidden {
+  display: none;
+}
